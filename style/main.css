@@ -984,7 +984,7 @@ body {
 
 /* line 1004, main.scss */
 .str-two.four .main-section {
-  background: url(../img/four-bg.png) no-repeat 100% 0;
+  background: url(../img/main-three.png) no-repeat 100% 0;
   background-size: 80% 100%; }
 /* line 1009, main.scss */
 .str-two.four .slider-one__text:first-child {
@@ -1158,7 +1158,7 @@ body {
 
 /* line 1171, main.scss */
 .three-str.seven .main-section {
-  background: url(../img/seven-bg.png) no-repeat 100% 0;
+  background: url(../img/main-three.png) no-repeat 100% 0;
   background-size: 80% 100%; }
 /* line 1176, main.scss */
 .three-str.seven .block-center {
