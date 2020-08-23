@@ -864,7 +864,7 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
   position: absolute;
-  width: 74%;
+  width: 78%;
   left: 50%;
   margin-left: -37%; }
   /* line 904, main.scss */
@@ -874,13 +874,17 @@ body {
   /* line 908, main.scss */
   .three-str .block-center__text {
     font-size: 30px;
-    line-height: 35px;
+    line-height: 20px;
     text-transform: uppercase; }
   /* line 912, main.scss */
   .three-str .block-center__text.two {
     font-size: 20px;
     margin-bottom: 0;
     max-width: 940px; }
+    .three-str .block-center__text.bonus-item-title{
+      font-size: 24px;
+      line-height: 24px;
+     }
 /* line 919, main.scss */
 .three-str .number-block {
   display: -webkit-box;
@@ -916,6 +920,12 @@ body {
     margin-bottom: 0;
     font-size: 24px;
     line-height: 28px; }
+
+    .three-str .bonus-inner{
+      display: flex;
+      justify-content: space-between;
+    }
+
 /* line 947, main.scss */
 .three-str .bonus-block {
   display: -webkit-box;
@@ -929,7 +939,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background: #fff;
-  width: 72%;
+  width: 90%;
   position: relative;
   height: 330px;
   padding-left: 10%; }
