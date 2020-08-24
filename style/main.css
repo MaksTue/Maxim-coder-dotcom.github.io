@@ -48,6 +48,9 @@ body {
     height: 100%;
     background: #191919; }
 
+.mob-menu{
+  display:none;
+}
 /* line 62, main.scss */
 .top-h {
   display: none;
