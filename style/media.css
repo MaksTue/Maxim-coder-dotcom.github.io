@@ -222,7 +222,7 @@
       color: #ffbc19;
       line-height: 50px;
       padding-left: 20px;
-      background: #242424;
+      background: #2f2f2f;
       width: 100%;
       font-family: Gilroy Extrabold; }
     /* line 140, media.scss */
@@ -452,7 +452,7 @@
 @media (max-width: 1024px) {
   /* line 417, media.scss */
   .header-left .block-center__title {
-    font-size: 190px;
+    font-size: 170px;
     line-height: 190px; }
 
     .str-two .slider-one__img-block img{
@@ -466,7 +466,7 @@
 
   /* line 425, media.scss */
   .main-section__header {
-    height: 650px; }
+    height: 510px; }
 
   /* line 428, media.scss */
   .header-left .block-center__text.two {
@@ -489,9 +489,9 @@
   .slick-dotted.slick-slider {
     margin-bottom: 0; }
 
-  /* line 448, media.scss */
+  /* line 448, media.scss
   .bottom-right .email-bt {
-    display: none; }
+    display: none; } */
 
   /* line 452, media.scss */
   .bottom-right .right-item::before {
@@ -671,14 +671,16 @@
 @media (max-width: 800px) {
   /* line 622, media.scss */
   .header-left .block-center__title {
-    font-size: 150px;
+    font-size: 126px;
     line-height: 150px; }
 
   /* line 626, media.scss */
   .header-left .block-center__text {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px; } }
 @media (max-width: 768px) {
+  .bottom-right .email-bt {
+    display: none; }
   /* line 634, media.scss */
   .container {
     min-height: auto; }
