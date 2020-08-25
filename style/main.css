@@ -696,12 +696,6 @@ body {
           justify-content: flex-start; }
   /* line 718, main.scss */
   .str-two .header-left .block-center__block-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding-top: 50px; }
   /* line 723, main.scss */
   .str-two .header-left .block-center__text {
@@ -838,6 +832,36 @@ body {
 /* line 855, main.scss */
 .str-two .one-item:focus {
   outline: none; }
+
+  .block-directions{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .direction-inner{
+    display: flex;
+    width: 100%;
+  }
+  .direction-item{
+    width:20%;
+  }
+
+  .direction-item__img img{
+
+  }
+  .direction-item__text{
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Gilroy-ExtraBold;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color:#F5F5F5;
+  }
+  .direction-item__text:hover{
+    text-decoration: none;
+    color: #ffbc19; 
+  }
+
 
 /* line 864, main.scss */
 .three-str .main-section {
