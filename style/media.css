@@ -766,6 +766,9 @@
     margin-left: 0;
     margin-bottom: 30px; }
 
+   .three-str.seven .header-left .block-center__text{
+      display: none;
+   }
   /* line 704, media.scss */
   .header-left .block-center__text {
     font-size: 14px;
@@ -970,12 +973,12 @@
   /* line 889, media.scss */
   .str-two .main-section .container::before {
     width: 30%;
-    height: 80%; }
+    height: 100%; }
 
   /* line 894, media.scss */
   .str-two .main-section {
     background: url(../img/two-mob.png) no-repeat 100% 0;
-    background-size: 75% 80%; }
+    background-size: 75% 100%; }
     /* line 898, media.scss */
     .str-two .main-section::before {
       height: 80%; }
@@ -983,7 +986,7 @@
   /* line 903, media.scss */
   .str-two.four .main-section {
     background: url(../img/two-mob.png) no-repeat 100% 0;
-    background-size: 75% 80%; }
+    background-size: 75% 100%; }
 
   /* line 909, media.scss */
   .str-two.five .main-section::before {
