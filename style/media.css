@@ -1211,6 +1211,10 @@
     line-height: 24px;
     margin-bottom: 30px; }
 
+  .three-str .header-left .block-center__text {
+      display: none;
+    }
+
   /* line 1123, media.scss */
   .three-str.seven .header-left .block-center__text.two {
     color: #191919;
