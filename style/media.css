@@ -1029,7 +1029,7 @@
   .str-two .slider-one .slick-dots li button::after {
     position: absolute;
     margin-top: -3px;
-    margin-left: -10px;
+    margin-left: -8px;
     font-size: 40px;
     content: '•';
     color: #ffbc19;
