@@ -474,11 +474,15 @@
 
   /* line 411, media.scss */
   .form-str .input-block {
-    width: 90%; } }
-
-   .str-two.direct .container::before{
+    width: 90%; } 
+  
+    .str-two.direct .container::before{
       height: 128%;
    }
+
+  }
+
+  
 @media (max-width: 1024px) {
   /* line 417, media.scss */
   .header-left .block-center__title {
