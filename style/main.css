@@ -178,15 +178,15 @@ body {
 
 /* line 169, main.scss */
 .menu-block {
-  width: 620px;
+  width: 400px;
   height: 100vh;
   position: fixed;
   top: 0;
   right: -1000px;
   z-index: 30;
   background: #191919;
-  padding-top: 100px;
-  padding-left: 100px;
+  padding-top: 90px;
+  padding-left: 90px;
   -webkit-transition: .5s;
   transition: .5s; }
   /* line 181, main.scss */
@@ -873,7 +873,7 @@ body {
     content: '';
     display: inline-block;
     width: 10px;
-    height: 15px;
+    height: 50px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
   }
@@ -1351,7 +1351,7 @@ body {
       }
       .goals-block__text{
         line-height: 48px;
-        font-family: Gilroy-ExtraBold;
+        font-weight: bold;
         margin: 0;
         position: relative;
       }
