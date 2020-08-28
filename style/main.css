@@ -1136,6 +1136,7 @@ body {
     margin-top: 20px;
     position: relative;
     padding-left: 20px; }
+
     /* line 984, main.scss */
     .three-str .bonus-block__text::before {
       content: '';
@@ -1149,8 +1150,9 @@ body {
       background: #ffbc19;
       border-radius: 50%; }
 
-      .three-str .bonus-block .inner-item{
-        height: 370px;
+      .three-str .bonus-block.inner-item{
+        justify-content: space-evenly;
+        height: 100%;
       }
 /* line 1004, main.scss */
 .str-two.four .main-section {

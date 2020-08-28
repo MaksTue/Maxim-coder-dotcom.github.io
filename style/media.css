@@ -141,7 +141,7 @@
 
     @media (max-width: 1550px){
       .str-two.four .header-left .block-center{
-        margin-left: 114px;
+        margin-left: 110px;
       }
 
       .str-two .slider-one__text{
@@ -721,6 +721,10 @@
     font-size: 14px;
     line-height: 20px; } }
 @media (max-width: 768px) {
+
+  .inner-item{
+    width: 100%;
+  }
 
   .bottom-right .email-bt {
     display: none; }
